@@ -1,0 +1,12 @@
+run
+echo 'name := "impapp"' > build.sbt
+run
+eclipsify
+eclipse
+sbteclipse
+help
+eclipsify
+eclipse
+:eclipse
+reload
+eclipse
